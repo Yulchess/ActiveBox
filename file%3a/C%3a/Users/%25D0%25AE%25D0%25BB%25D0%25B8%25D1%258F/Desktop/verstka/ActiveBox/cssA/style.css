@@ -1,0 +1,60 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    color: #80858b;
+}
+
+.conteiner{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    padding: 45px;
+   
+ }
+
+ .nav__link{
+     margin-right: 50px;
+     text-decoration: none;
+     color:white;
+ }
+ .nav__link:last-child{
+     margin-right: 0;
+ }
+ 
+ .nav__link:hover{
+    color : #607792;
+    opacity: 1;
+ }
+
+.intro{
+    width: 100%;
+    background:  #607792 url(/img/ActiveBoxBlue.jpg); 
+    height: 750px;
+
+}
+
+.intro__main{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    width: 920px;
+    height: 340px;
+
+}
+.title{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 65px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+ 

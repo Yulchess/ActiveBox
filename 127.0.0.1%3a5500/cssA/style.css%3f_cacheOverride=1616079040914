@@ -1,0 +1,22 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    color: #80858b;
+}
+
+.conteiner{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.header__logo{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nav{
+    display:flex;
+    /* flex-wrap: wrap; */
+    justify-content: flex-end;
+}

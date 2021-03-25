@@ -1,0 +1,410 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    color: #80858b;
+    font-size: 14px;
+
+}
+
+.conteiner{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    padding: 45px;
+    border-bottom: 1px solid #505369;
+   
+ }
+
+ .nav__link{
+     margin-right: 50px;
+     text-decoration: none;
+     color:white;
+     text-transform: uppercase;
+ }
+ .nav__link:last-child{
+     margin-right: 0;
+ }
+ 
+ .nav__link:hover{
+    color : #607792;
+    opacity: 1;
+ }
+
+.intro{
+    width: 100%;
+    background:  #607792 url(../img/ActiveBoxBlue.jpg); 
+    height: 750px;
+}
+
+.intro__main{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 920px;
+  padding: 100px;
+
+}
+.title{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 65px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 45px;
+}
+
+.title__under{
+    color: #babcc4;
+    text-align: center;
+    font-size: 22px;
+    margin: 0;
+   
+    line-height: 1.5;
+    font-weight: 400;
+    margin-bottom: 70px;
+    
+}
+
+.btn{
+    display: inline-block;
+    vertical-align: top;
+    padding: 14px 40px;
+    font-size: 13px;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    background-color: #e84545;
+    margin:0 auto;
+    
+    
+}
+
+.btn:hover{
+    color: black;
+    background: white;
+}
+ 
+.features{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 180px);
+    gap: 50px;
+
+    
+}
+
+.features__main{
+    text-align: center;
+    
+}
+
+
+
+.features__title{
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700; 
+    margin: 0px;
+    margin-bottom: 15px;
+   
+
+}
+
+
+.features__subtitle{
+    color: #6c7279;
+    font-weight: 500; 
+    margin: 0%;  
+}
+
+.features__item1{
+    margin-bottom: 20px;
+}
+.conteiner2{
+
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 100px;
+}
+
+
+.conteiner3{
+    max-width: 1900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 250px);
+    grid-gap: 0px;
+}
+
+.work{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-size: cover; 
+    
+  
+}
+
+.working__image{
+    height: 100%;
+   width: 100%;
+}
+
+.title__content{
+     font-size: 14px;
+     font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+    
+}
+.content{
+    position: absolute;
+    padding: 80px;
+  
+}
+
+.subtitle__content{
+color: white;
+margin: 0;
+
+}
+
+.team-information{
+    margin: 0 auto;
+    max-width: 1180px;
+    min-width: 320px;
+    padding: 100px;
+}
+
+.team-information__wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px; 
+
+    
+}
+
+.worker-description{
+    
+
+}
+.worker-image{
+    margin-bottom: 20px;
+}
+
+.worker-name{
+    color: black;
+    font-size: 22px;
+    margin: 0;
+    margin-bottom: 10px;
+    
+}
+
+.post{
+    color: #e84545;
+    text-transform: uppercase;
+   margin: 0;
+   margin-bottom: 20px;
+}
+.worker-information{
+    text-align:left;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.btn-social-networks{
+    display: grid;
+    grid-template-columns: repeat(3, 25%);
+    border: 1px solid white;
+
+}
+
+.social-network-Facebook{
+    padding: 13px 20px 13px 20px;
+    border: 1px solid white;
+
+}
+
+.social-network-Twitter{
+    padding: 15px 14px 15px 14px;
+    border: 1px solid #c6cacc;
+    border: 1px solid white;
+}
+
+.social-network-In{
+    padding: 14px 16px 14px 16px;
+    border: 1px solid #c6cacc;
+    border: 1px solid white;
+}
+
+.social-network-Facebook:hover{
+    border-color:navy;  
+    background: navy;
+    border: 1px solid  navy;
+  
+}
+
+.social-network-Twitter:hover{
+    border-color:#1d9bf0;
+    background:#1d9bf0;
+}
+
+.social-network-In:hover{
+    border-color:#0a66c2 ;
+    background:#0a66c2;
+
+}
+.clients-information{
+    
+    max-width: 1900px;
+    min-width: 320px;
+    margin: 0 auto;
+}
+
+.clients-information-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 950px);
+    grid-gap: 0px; 
+    justify-content: center;
+}
+
+.client-pic{
+    height: 100%;
+    width: 100%;
+}
+
+.client-background{
+    padding: 100px;
+    height: 60%;
+    background-color: #53354a ;
+}
+
+
+
+.quote{
+   display: flex;
+   justify-content: left;
+    font-family: 'Cardo', serif;
+    font-size: 36px;
+    font-weight: 100;
+    max-width: 510px;;
+    color: white;
+    
+    
+}
+
+.quote_sub{
+    color: white;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin: 0%;
+    
+}
+
+.download-information{
+    max-width: 1170px;
+    min-width: 320px;
+    margin: 0 auto;
+    padding: 80px;
+ 
+}
+
+.title-download{
+    font-size: 28px;
+    color: black;
+    text-align: center;
+    margin: 0px;
+    margin-bottom:20px ;
+}
+.suptitle-download{
+    font-size: 13px;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin: 0%;
+    margin-bottom: 40px;
+   
+}
+
+.btn-download{
+    
+ max-width: 115px;
+    display: flex;
+    justify-content: center;
+    color:white;
+    font-size: 13px;
+   
+    text-transform: uppercase;
+
+    margin: 0 auto;
+    padding :  18px 83px 18px 83px ;
+    border: 1px solid #e84545;
+    background-color: #e84545;
+    text-decoration:none;
+    
+}
+
+.btn-download:hover{
+    
+    border-color:#d53636 ;
+    color: white;
+    background-color: #d53636;
+  
+}
+
+.footer-information{
+   
+    min-width: 330px;
+    width: 100%;
+    background-color: #3a3e64;
+}
+
+.footer-wripper{
+    width: 1170px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px; 
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.title-descriptin{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0%;
+    margin-bottom: 15px;
+    
+}
+
+.subtitle-descriptin{
+    text-align: center;
+    color: #9092a7;
+    margin: 0%;
+    line-height: 22px;
+}
+.footer-buttens{
+    
+    display: grid;
+    grid-template-columns: repeat(3, 16%);
+    justify-content: center;
+    
+
+
+}
